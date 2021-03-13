@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-let folderPath = "./downloads";
+let folderPath = "./../../demo";
 let extent = require("./utility.js");
 let extfolderpath ;
 
@@ -14,7 +14,7 @@ function checkfolder(extension){
 for(let key in extent){
 // Images -> Audio
 if(extent[key].includes(extension)){
-cd
+
  //extfolderpath = folderPath +"/"+ key; 
   // also write using string interpolation
  extfolderpath = `${folderPath}/${key}`; // ===>   ./downloads/Images
