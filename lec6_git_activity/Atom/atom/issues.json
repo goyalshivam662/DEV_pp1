@@ -1,0 +1,98 @@
+[
+    {
+        "Issue Name": "spawn /opt/atom/resources/app/apm/bin/apm EACCES",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22079"
+    },
+    {
+        "Issue Name": "Atom Electron 9 - iterator.seek is not a function or its return value is not iterable",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22078"
+    },
+    {
+        "Issue Name": "Copy project path stopped working",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22074"
+    },
+    {
+        "Issue Name": "Uncaught Error: tunneling socket could not be established, statusCode=503",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22056"
+    },
+    {
+        "Issue Name": "Release notes: Please mention Electron 9 upgrade for Atom 1.56.0-beta0",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22054"
+    },
+    {
+        "Issue Name": "ShipIt_stderr.log has no upper bounds in size and can grow to dozens of Gb",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22049"
+    },
+    {
+        "Issue Name": "Recent files appear when right-clicking Atom application",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22040"
+    },
+    {
+        "Issue Name": "KeePassXC unlock dialog opens on Attom start.",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22039"
+    },
+    {
+        "Issue Name": "Uncaught Error: ENOENT: no such file or directory, lstat '~/AppData\\Local\\atom\\app-1.54.0\\transla...",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22035"
+    },
+    {
+        "Issue Name": "Uncaught Error: ENOENT: no such file or directory, lstat '~/AppData\\Local\\atom\\app-1.55.0\\CSS - M...",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22030"
+    },
+    {
+        "Issue Name": "Uncaught Error: dlopen(~/Codes/Atom.app/Contents/Resources/app.asar.unpacked/node_modules/keyboar...",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22029"
+    },
+    {
+        "Issue Name": "Uncaught Error: dlopen(/private/var/folders/4c/2ycrmq2s33qfn6fmp68k7tz80000gn/T/AppTranslocation/...",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22026"
+    },
+    {
+        "Issue Name": "Atom Electron 9 CLI disconnects after running commands and never exits",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22024"
+    },
+    {
+        "Issue Name": "Feature: OSX - Clear the Recent Projects / Files that display on right click in Dock",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22012"
+    },
+    {
+        "Issue Name": "Uncaught Error: ENOENT: no such file or directory, lstat '~/AppData\\Local\\Temp\\peazip-tmp\\drop8BF...",
+        "Issue Link": "https://www.github.com/atom/atom/issues/22010"
+    },
+    {
+        "Issue Name": "Atom crashing in each second",
+        "Issue Link": "https://www.github.com/atom/atom/issues/21998"
+    },
+    {
+        "Issue Name": "Uncaught Error: dlopen(/private/var/folders/5c/cp9dqdcd2q94vrl3nj_rqd980000gn/T/wzQL.2p3PEz/Atom....",
+        "Issue Link": "https://www.github.com/atom/atom/issues/21995"
+    },
+    {
+        "Issue Name": "Log Syntax Cursor Tree Scope with >",
+        "Issue Link": "https://www.github.com/atom/atom/issues/21994"
+    },
+    {
+        "Issue Name": "Let atom detach Asciidoc Preview",
+        "Issue Link": "https://www.github.com/atom/atom/issues/21993"
+    },
+    {
+        "Issue Name": "Windows do not show on MacOS Bit Sur",
+        "Issue Link": "https://www.github.com/atom/atom/issues/21989"
+    },
+    {
+        "Issue Name": "Menu Bar not fully loading",
+        "Issue Link": "https://www.github.com/atom/atom/issues/21984"
+    },
+    {
+        "Issue Name": "Uncaught Error: ENOENT: no such file or directory, lstat '~/AppData\\Local\\atom\\app-1.54.0\\TinDog-...",
+        "Issue Link": "https://www.github.com/atom/atom/issues/21982"
+    },
+    {
+        "Issue Name": "theme releted issue",
+        "Issue Link": "https://www.github.com/atom/atom/issues/21981"
+    },
+    {
+        "Issue Name": "Atom crashes when adding folders",
+        "Issue Link": "https://www.github.com/atom/atom/issues/21978"
+    }
+]

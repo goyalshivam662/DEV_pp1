@@ -3,7 +3,7 @@ let exts = {
 "Audio" : [".mp3"],
 "Documents" : [".pdf"],
 "Compressed" : [".zip"],
-"Videos":[".mkv"]
+"Videos":[".mkv","mp4"]
 
 }
 module.exports = exts;

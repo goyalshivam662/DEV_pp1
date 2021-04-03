@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/goyalshivam662/DEV_pp1#readme",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.5"
+    "cheerio": "^1.0.0-rc.5",
+    "puppeteer": "^8.0.0",
+    "request": "^2.88.2"
   }
 }
