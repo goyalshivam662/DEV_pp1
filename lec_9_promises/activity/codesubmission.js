@@ -113,13 +113,22 @@ return sbklinkpromise;
     });
  // console.log(completelinks);
  let onequespromise = solveQuestion(completelinks[0]);
+  for(let i = 1 ;i <completelinks.length ;i ++ ){
+onequespromise = onequespromise.then(function(){
 
- return onequespromise;
+    let nextquestionpromise = solveQuestion(completelinks[i]);
+  return nextquestionpromise ;
+})
+
+  } // loop
+  
+
+return onequespromise;
 })
 
 
  .then(function(){
-     console.log("one question solved successfully");
+     console.log("all question solved successfully");
  })
 
 .catch(function(error){
@@ -127,6 +136,32 @@ return sbklinkpromise;
 console.log(error);
 
 })
+
+function handlelokBtn(){
+return new Promise(function(resolve,reject){
+let waitpromise = tab.waitForSelector('.ui-btn.ui-btn-normal.ui-btn-primary.ui-btn-styled',{visible :true,timeout :5000});
+waitpromise.then(function(){
+
+let lockbtnpromise =  tab.$('.ui-btn.ui-btn-normal.ui-btn-primary.ui-btn-styled');
+return lockbtnpromise;
+})
+.then(function(llockbtn){
+let lockclickbtnpromise = llockbtn.click();
+return lockclickbtnpromise;
+
+})
+.then(function(){
+console.log("lock btn found !!");
+resolve();
+})
+.catch(function(){
+    console.log("lock btn  noot found !!")
+resolve();
+})
+
+})
+
+}
 
 
 function solveQuestion(qlink){
@@ -137,7 +172,12 @@ gotopromise.then(function(){
 
     let waitandclickpromise = waitAndClick('div[data-attr2="Editorial"]');
     return waitandclickpromise;
+}).then(function(){
+
+    let lockbtnpromise  = handlelokBtn();
+    return lockbtnpromise;
 })
+
 .then(function(){
 
     let codePromise = getcode();
