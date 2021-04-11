@@ -1,0 +1,28 @@
+[
+    {
+        "Brand": "Motorola",
+        "Model": "Moto G30",
+        "PriceinIndia": "₹10,999",
+        "Release_date": "15th February 2021",
+        "Launched_in_India": "Yes",
+        "Form_factor": "Touchscreen",
+        "Dimensions": "165.22 x 75.73 x 9.14",
+        "Weight": "200.00",
+        "Battery_capacity": "5000",
+        "Fast_charging": "Proprietary",
+        "Colours": "Proprietary"
+    },
+    {
+        "Brand": "Motorola",
+        "Model": "Moto G9",
+        "PriceinIndia": "₹10,999",
+        "Release_date": "24th August 2020",
+        "Launched_in_India": "Yes",
+        "Form_factor": "Touchscreen",
+        "Dimensions": "165.21 x 75.73 x 9.18",
+        "Weight": "200.00",
+        "Battery_capacity": "5000",
+        "Fast_charging": "No",
+        "Colours": "No"
+    }
+]
