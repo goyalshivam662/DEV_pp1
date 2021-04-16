@@ -1,4 +1,5 @@
-
+// let or const block scope
+//var function scope
 const num = 5;
 console.log(num + 5);
 let a = 6;

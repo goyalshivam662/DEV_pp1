@@ -1,19 +1,6 @@
 [
     {
         "Brand": "Poco",
-        "Model": "X3",
-        "PriceinIndia": "₹14,999",
-        "Release_date": "22nd September 2020",
-        "Launched_in_India": "Yes",
-        "Form_factor": "Touchscreen",
-        "Dimensions": "165.30 x 76.80 x 9.40",
-        "Weight": "215.00",
-        "Battery_capacity": "6000",
-        "Fast_charging": "Proprietary",
-        "Colours": "Proprietary"
-    },
-    {
-        "Brand": "Poco",
         "Model": "M3",
         "PriceinIndia": "₹10,999",
         "Release_date": "24th November 2020",
@@ -37,5 +24,18 @@
         "Battery_capacity": "209.00",
         "Fast_charging": "5020",
         "Colours": "5020"
+    },
+    {
+        "Brand": "Poco",
+        "Model": "X3",
+        "PriceinIndia": "₹14,999",
+        "Release_date": "22nd September 2020",
+        "Launched_in_India": "Yes",
+        "Form_factor": "Touchscreen",
+        "Dimensions": "165.30 x 76.80 x 9.40",
+        "Weight": "215.00",
+        "Battery_capacity": "6000",
+        "Fast_charging": "Proprietary",
+        "Colours": "Proprietary"
     }
 ]
