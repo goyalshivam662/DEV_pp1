@@ -4,32 +4,71 @@
     padding:0px;
 }
 
-.input-container{
-height:10vh;                            
-background:lightblue;
+body{
+    background: lightskyblue;
+}
 
+.input-container{
+
+    height: 20vh;
+    /* background: yellow; */
+    padding: 2rem;
 }
 .todo-input
 {
 
+    display: block;
+    margin: auto;
+    height: 50%;
+    width: 60%;
+    text-align: center;
+    outline: none;
+    font-size: 89;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px;
 }
-.add-todo{
-
+.add-todo
+    {
+        display: block;
+        margin : auto;
+        margin-top: 30px;
+        height: 40%;
+        width: 13%;
+        border: none;
+        border-radius: 50px;
+        outline:none;
+        
 }
 .todos-container{
-height:90vh;
-background:violet;
+
 
 }
 .todos-list{
 
 }
 .todo{
-
+    color: white;
+    text-align: center;
+    display: inline;
+    margin-left: 2rem;
+    font-size:2rem;
 }
+
 .todo-item{
 
+    display: block;
+    margin: auto;
+    margin-bottom: 26px;
+    height: 4rem;
+    width: 70%;
+    background: lightblue;
+    border-radius: 15px;
 }
 .delete-task{
-
+display:block;
+margin:auto;
+margin-right: 2rem;
+    float: right;
+    margin-top: 1rem;
 }

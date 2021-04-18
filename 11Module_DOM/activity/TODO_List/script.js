@@ -26,11 +26,13 @@ listItem.append(ptag);
 
 listItem.append(deletebutton);
 
-
 todolist.append(listItem);
 
 todoInput.value = " ";
 } //if
+else{
+  alert("you have not enter any todo");
+}
 } //function end
 
 
